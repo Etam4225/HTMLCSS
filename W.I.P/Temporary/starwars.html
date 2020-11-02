@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Ethan Tam -->
+<html>
+	<head>
+		<title> index.HTML </title>
+		<link rel = "stylesheet" href = "..\mainpage.css" />
+		<style>
+		
+		</style>
+		<script src = "..\dropdown.js"></script>
+		<script>
+			function initialize()
+			{
+				mainContainer = document.getElementById("maincontainer");
+				menuList = mainContainer.getElementsByClassName("menuitem");
+			}
+			
+		</script>
+	</head>
+	<body onload = "initialize();">
+	<div class = "header">Welcome to the Movie Blog! Choose a genre below!</div>
+	<div class = "menucontainer" id = "maincontainer">
+			<h2 class = "menuitem" onmouseover = "toggleMenuItems(menuList[0], 'block');", onmouseout = "toggleMenuItems(menuList[0], 'none');">
+				Action<br />
+				<div class = "subcontainer">
+					<a href="starwars.html" target = "_blank">Star Wars</a><br />
+					
+				</div>
+			</h2>
+			
+			
+			<h2 class = "menuitem" onmouseover = "toggleMenuItems(menuList[1], 'block');", onmouseout = "toggleMenuItems(menuList[1], 'none');">
+				Animation<br />
+				<div class = "subcontainer">
+					<a href="starwars.html" target = "_blank">Sing!</a><br />
+					<a href="starwars.html" target = "_blank">Kubo and the Two Strings</a><br />
+				</div>
+			</h2>
+			
+			
+			<h2 class = "menuitem" onmouseover = "toggleMenuItems(menuList[2], 'block');", onmouseout = "toggleMenuItems(menuList[2], 'none');">
+				Adventure<br />
+				<div class = "subcontainer">
+					<span class = "submenuitem">Adventure Movie 1</span><br />
+					<span class = "submenuitem">Adventure Movie 2</span><br />
+				</div>
+			</h2>
+			
+			
+			<h2 class = "menuitem" onmouseover = "toggleMenuItems(menuList[3], 'block');", onmouseout = "toggleMenuItems(menuList[3], 'none');">
+				Upcoming Movies<br />
+				<div class = "subcontainer">
+					<a href="Upcoming 2017 movies.html" target = "_blank">2017 Movies</a><br />
+			</h2>
+			
+			
+			<h2 class = "menuitem" onmouseover = "toggleMenuItems(menuList[4], 'block');", onmouseout = "toggleMenuItems(menuList[4], 'none');">
+				Checkout<br />
+				<div class = "subcontainer">
+					<span class = "submenuitem">Checkout here!</span><br />
+				</div>
+			</h2>
+			
+		</div>
+		<h3> Star Wars Content!</h3>
+		<a href="..\Ethan Tam Main Page.html" target = "_blank">Homepage</a>
+	
+	</body>
+</html>

@@ -1,0 +1,132 @@
+
+.menucontainer
+{
+	display:block;
+	margin:auto;					
+	text-align:center;
+	width:80%;
+	position:relative;
+	color: green;
+	
+}
+.menuitem
+{
+	display:inline-block;
+	font:bold 18pt arial;
+	width:17%;
+	vertical-align:top;
+	cursor:pointer;
+	position:relative;
+	
+}
+.subcontainer
+{
+	display:none;
+	position:absolute;
+	width:100%;
+	
+}
+
+.submenuitem
+{
+	font:15pt;
+}
+.header
+{
+	text-align: center;
+	font:bold 18pt arial;
+	color: red;
+}
+h1
+{	
+	text-align: center;	
+	margin-top: 10%;
+}
+a:link
+{
+	color:white;
+	
+}
+a:visited
+{
+	color:white;
+	
+}
+a:hover
+{
+	color:white;
+	
+}
+body
+{
+	background-color: black;
+	color:white;
+}
+.backimg
+{
+	position: fixed; 
+	top: 0px;
+	left: 0px;
+	z-index: -2;
+	height: 100%;
+	width: 100%;
+}
+.backgroundimg
+{
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	height: 15%;
+}
+.mainpage
+{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 5%;
+	border: 3px solid red;
+	border-style: double;
+}
+div > a
+{
+	display: block;
+}
+.maincontent
+{
+	text-align: center;
+	padding: 5%;
+}
+div > span
+{
+	display: block;
+	margin-top: 5%;
+	
+}
+span > div
+{
+		font: bold 15px Georgia;
+}
+span
+{
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	margin-left: 25%;
+}
+.dscover
+{
+	text-align: center;
+}
+div > img
+{
+	width: 25%;
+}	
+#title
+{
+	font: bold 24px Georgia;
+	margin-top: 5%;
+}
+/* *
+{
+	border: 1px solid white;
+} */

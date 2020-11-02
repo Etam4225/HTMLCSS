@@ -1,0 +1,82 @@
+
+.menucontainer
+{
+	display:block;
+	margin:auto;					
+	text-align:center;
+	width:80%;
+	position:relative;
+	
+}
+.menuitem
+{
+	display:inline-block;
+	font:bold 18pt arial;
+	width:17%;
+	vertical-align:top;
+	cursor:pointer;
+	position:relative;
+	
+}
+.subcontainer
+{
+	display:none;
+	position:absolute;
+	width:100%;
+	
+}
+
+.submenuitem
+{
+	font:15pt;
+}
+.header
+{
+	text-align: center;
+	font:bold 18pt arial;
+	color: red;
+}
+h3
+{
+	color: lightblue;
+}
+h2
+{
+	color: green;
+}
+a:link
+{
+	color:white;
+	
+}
+a:visited
+{
+	color:white;
+	
+}
+a:hover
+{
+	color:white;
+	
+}
+h1
+{
+	text-align: center;
+				
+}
+body
+{
+	background-color: black;
+}
+.movieitem
+{
+	color: yellow;
+}
+h3, h4
+{
+	text-align: center;
+}
+ .mypic
+{
+	display: none;
+} 

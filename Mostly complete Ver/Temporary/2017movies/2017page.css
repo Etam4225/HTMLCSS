@@ -1,0 +1,102 @@
+
+.backgroundimg
+{
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	height: 15%;
+}
+.menucontainer
+{
+	display:block;
+	margin:auto;					
+	text-align:center;
+	width:80%;
+	position:relative;
+	color: green;
+	
+}
+.menuitem
+{
+	display:inline-block;
+	font:bold 18pt arial;
+	width:17%;
+	vertical-align:top;
+	cursor:pointer;
+	position:relative;
+	
+}
+.subcontainer
+{
+	display:none;
+	position:absolute;
+	width:100%;
+	
+}
+
+.submenuitem
+{
+	font:15pt;
+}
+.header
+{
+	text-align: center;
+	font:bold 18pt arial;
+	color: red;
+}
+h1
+{	
+	text-align: center;	
+	margin-top: 10%;
+}
+a:link
+{
+	color:white;
+	
+}
+a:visited
+{
+	color:white;
+	
+}
+a:hover
+{
+	color:white;
+	
+}
+body
+{
+	background-color: black;
+	color:white;
+}
+h3
+{
+	text-align: center;
+}
+.mypic
+{
+	text-align: center;
+}
+#sleepless, #spiderman, #mummy, #batman, #despicable3, #cars
+{
+	height: 500px;
+	width: 500px;
+}
+.mainpage
+{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 5%;
+	border: 3px solid red;
+	border-style: double;
+}
+div > a
+{
+	display: block;
+}
+
+/* *
+{
+	border: 1px solid white;
+} */
